@@ -38,7 +38,7 @@ namespace From_xls_to_txt {
             }
         }
 
-        //Сохранить текстовый фаил *.txt
+        //Сохранить текстовый фаил *.txt.
         private void ButtonSave_Click(object sender, EventArgs e) {
             SaveFileDialog sfd =    new SaveFileDialog();
             sfd.FileName =          text_NameFile;
